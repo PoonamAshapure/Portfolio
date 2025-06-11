@@ -1,7 +1,13 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap");
 
-* {
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+html {
   scroll-behavior: smooth;
 }
 body {
